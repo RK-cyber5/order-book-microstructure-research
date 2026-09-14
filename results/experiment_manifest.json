@@ -1,0 +1,39 @@
+{
+    "dataset_identifiers": [
+        "parquet_export.csv"
+    ],
+    "date_session_information": "Single session, approx 1.86 hours",
+    "features": [
+        "l1_imb",
+        "l5_imb_1k",
+        "l5_imb_uni",
+        "microprice_dev",
+        "ofi",
+        "rel_spread"
+    ],
+    "horizons_events": [
+        1,
+        2,
+        5,
+        10,
+        20,
+        50,
+        100,
+        250,
+        500
+    ],
+    "split_method": "Chronological 70/30 (Within-session)",
+    "inference_method": "HAC (Newey-West) via statsmodels OLS",
+    "bootstrap_method": "Stationary Block Bootstrap",
+    "block_size": 100,
+    "fdr_method": "Benjamini-Hochberg",
+    "cost_assumptions": "Aggressive taker: cross spread on entry and exit",
+    "latency_assumptions_events": [
+        0,
+        1,
+        2,
+        5,
+        10
+    ],
+    "random_seeds": 42
+}

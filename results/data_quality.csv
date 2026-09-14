@@ -1,0 +1,2 @@
+total_raw_events,book_events,trade_events,monotonicity_violations,missing_prices,missing_sizes,duplicate_timestamps,unique_timestamps,time_span_seconds,observation_density_per_sec
+36484,36446,38,0,0,0,21712,14772,6723.34,5.4264695820827145

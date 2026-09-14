@@ -1,0 +1,15 @@
+session,condition,regime,signal,ic,n
+Session_1,spread_regime,Wide,l1_imb,0.3896501715164008,18189
+Session_1,spread_regime,Wide,ofi,0.19537961629312403,18189
+Session_1,spread_regime,Narrow,l1_imb,0.30203051333198566,18264
+Session_1,spread_regime,Narrow,ofi,0.17552989047992917,18264
+Session_1,depth_regime,Deep,l1_imb,0.34847607913567075,17425
+Session_1,depth_regime,Deep,ofi,0.14561915515131413,17425
+Session_1,depth_regime,Shallow,l1_imb,0.1444231209908684,19028
+Session_1,depth_regime,Shallow,ofi,0.17948413196959112,19028
+Session_2,spread_regime,Wide,l1_imb,0.1431024457444377,74326
+Session_2,spread_regime,Wide,ofi,0.10370161630957472,74326
+Session_2,depth_regime,Deep,l1_imb,0.15982007867650774,55937
+Session_2,depth_regime,Deep,ofi,0.082608071000953,55937
+Session_2,depth_regime,Shallow,l1_imb,0.16449639676857944,18389
+Session_2,depth_regime,Shallow,ofi,0.17873932652236998,18389

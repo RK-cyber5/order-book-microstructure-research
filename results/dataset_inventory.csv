@@ -1,0 +1,3 @@
+session_id,source,total_events,valid_l2_states,time_span_sec
+Session_1,parquet_export.csv,36484,36446,6723.34
+Session_2,out/backtests/day17_hour/parquet_export.csv,74350,74338,3599.218

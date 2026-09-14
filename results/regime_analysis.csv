@@ -1,0 +1,13 @@
+signal,regime,spearman_ic_oos
+l1_imb,High Spread,0.1431024457444377
+l5_imb_1k,High Spread,0.19042405567971024
+l5_imb_uni,High Spread,0.23105854630014458
+microprice_dev,High Spread,0.14716185522382833
+ofi,High Spread,0.10370161630957472
+rel_spread,High Spread,-0.09773380690753598
+l1_imb,Low Spread,
+l5_imb_1k,Low Spread,
+l5_imb_uni,Low Spread,
+microprice_dev,Low Spread,
+ofi,Low Spread,
+rel_spread,Low Spread,

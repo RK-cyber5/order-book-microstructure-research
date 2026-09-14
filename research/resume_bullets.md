@@ -1,0 +1,3 @@
+- Built a quantitative microstructure pipeline for dynamic L2 order-book reconstruction and extraction of L1/L5 imbalance, microprice, and OFI from event-level market data.
+- Developed dependence-aware cross-session OOS analysis using HAC-robust inference, stationary block bootstrapping, and Benjamini-Hochberg FDR to evaluate short-horizon signal stability.
+- Found that a strong naive in-sample relationship (IC ~0.36) did not replicate at the same magnitude under unseen-session evaluation (IC ~0.14), while the tested aggressive execution setup remained economically unattractive after spread and latency costs.
