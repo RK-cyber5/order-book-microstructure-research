@@ -1,0 +1,39 @@
+{
+  "symbol": "BTCUSDT",
+  "venue": "Binance US",
+  "sessions": [
+    {
+      "id": "Session_1",
+      "label": "SESSION 01",
+      "role": "TRAIN / DEVELOPMENT",
+      "role_short": "TRAIN",
+      "valid_l2_states": 36463,
+      "time_span_hours": 1.86,
+      "mean_relative_spread_bps": 6.2,
+      "l1_ic_at_10_events": 0.361
+    },
+    {
+      "id": "Session_2",
+      "label": "SESSION 02",
+      "role": "UNSEEN / OUT-OF-SAMPLE",
+      "role_short": "UNSEEN",
+      "valid_l2_states": 74338,
+      "time_span_hours": 1.0,
+      "mean_relative_spread_bps": 39.6,
+      "l1_ic_at_10_events": 0.143
+    }
+  ],
+  "totals": {
+    "l2_states": 110801,
+    "market_time_hours": 2.86
+  },
+  "headline_unseen": {
+    "l1_ic_at_10_events": 0.143,
+    "description": "unseen Session 2 Spearman IC at 10-event horizon"
+  },
+  "execution_modeled": {
+    "session_1_gross_bps": 0.003,
+    "session_1_spread_cost_bps": 3.6,
+    "net_bps": -3.6
+  }
+}

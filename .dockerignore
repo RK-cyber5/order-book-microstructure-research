@@ -1,10 +1,6 @@
-.git
-.github
-build
-recon
+frontend/
+.venv/
 __pycache__/
 *.pyc
-*.pyo
-*.swp
-*.swo
-.parquet-cache
+tests_py/
+.git/

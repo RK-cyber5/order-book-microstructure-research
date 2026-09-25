@@ -27,3 +27,21 @@ replay_tmp*
 .idea/
 .gemini/
 raw/
+
+# GLM/Agent Environment Files
+frontend/.zscripts/
+frontend/agent-ctx/
+frontend/db/custom.db
+frontend/examples/
+frontend/download/
+frontend/tests/
+frontend/worklog.md
+frontend/upload/
+
+# Cloudflare backend specific (obsolete/local)
+research_api/.wrangler/
+
+# Antigravity task files
+.system_generated/
+task-*.md
+task-*.log

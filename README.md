@@ -1306,3 +1306,18 @@ This quantitative microstructure research layer is an extension built on top of 
 - **Upstream Infrastructure:** The original repository provided the C++ LOB matching engine, raw data ingestion, and replay tooling.
 - **Research Contribution:** The `research/` directory, statistical analysis, dynamic L2 uncrossing features (L1, L5, OFI), cross-session OOS evaluation, latency/cost simulations, and documentation constitute the independent research contribution added in this extension.
 
+
+## 13. Deployment (Render & Cloudflare)
+
+The laboratory provides a split architecture for deployment:
+
+**Render (Backend):**
+- **Service type:** Web Service
+- **Runtime:** Docker
+- **Health check:** /api/health
+- **Expected port:** $PORT (Automatically bound by Render)
+- **Docker build context:** Repository root
+
+**Cloudflare Workers (Frontend):**
+- **Runtime:** inext (@cloudflare/next-on-pages)
+- **Required Variable:** RESEARCH_API_URL (pointing to the Render URL)
