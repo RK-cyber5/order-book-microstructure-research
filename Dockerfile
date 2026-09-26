@@ -9,6 +9,7 @@ RUN pip install --no-cache-dir -r research_api/requirements.txt uvicorn python-m
 
 # Copy authoritative results data
 COPY results/ /app/results/
+COPY data_store/ /app/data_store/
 
 # Copy API source
 COPY research_api/ /app/research_api/
